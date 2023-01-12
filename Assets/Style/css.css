@@ -4,7 +4,10 @@
 header{
     width: 100%;
     background-image: url('../Images/Header\ Background.png');
-    background-position: center;
+    background-position-x: -790px;
+    background-repeat: no-repeat;
+    background-size: auto 525px;
+    
 }
 
 h1{
