@@ -117,7 +117,6 @@ p{
     padding-bottom: 40px;
 }
 footer{
-    width: 429px;
     height: 140px;
     background-color: #23272A;
     display: flex;
@@ -153,5 +152,45 @@ footer{
     #botoes{
         flex-direction: row;
         padding-bottom: 95px;
+    }
+    #section-1{
+        flex-direction: row;
+        gap: 0;
+        justify-content: center;
+        align-items: center;
+    }
+    .imagem{
+        width: 607px;
+        height: 394px;
+        margin: 0;
+    }
+    .textos{
+        width: 348px;
+        height: 374px;
+        margin: 0;
+        gap: 16px;
+    }
+    .textos h2{
+        width: 329px;
+        height: 270px;
+        font-size: 40px;
+        font-weight: 800;
+        line-height: 54px;
+        margin: 0;
+        padding-left: 16px;
+    }
+    .paragrafo-section{
+        width: 348px;
+        text-align: left;
+        padding-left: 16px;
+    }
+    #section-2{
+
+    }
+    #section-3{
+        
+    }
+    #section-4{
+        
     }
 }
