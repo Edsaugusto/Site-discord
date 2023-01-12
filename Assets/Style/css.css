@@ -166,9 +166,10 @@ footer{
     }
     .textos{
         width: 348px;
-        height: 374px;
         margin: 0;
         gap: 16px;
+    
+        
     }
     .textos h2{
         width: 329px;
@@ -185,12 +186,52 @@ footer{
         padding-left: 16px;
     }
     #section-2{
-
+        flex-direction: row;
+        gap: 0;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row-reverse;
+    }
+    #section-2 .textos{
+        height: 212px;
     }
     #section-3{
-        
+        flex-direction: row;
+        gap: 0;
+        justify-content: center;
+        align-items: center;
+    }
+    #section-3 .textos{
+        height: 234px;
     }
     #section-4{
-        
+        gap: 0;
+        justify-content: center;
+        align-items: center;
+        height: 744px;
+        gap: 16px;
+    }
+    #section-4 .imagem{
+        width: 784px;
+        height: 508px;
+        padding: 0;
+    }
+    #section-4 .textos{
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+        gap: 32px;
+    }
+    #section-4 .textos h2{
+        width: 608px;
+        height: 80px;
+        text-align: center;
+        font-size: 40px;
+    }
+    #section-4 .textos .paragrafo-section{
+        width: 802px;
+        height: 44px;
+        padding: 0;
+        text-align: center;
     }
 }
