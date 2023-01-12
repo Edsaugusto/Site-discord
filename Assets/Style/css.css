@@ -1,1 +1,36 @@
 @import url(./reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+header{
+    width: 100%;
+    background-image: url('../Images/Header\ Background.png');
+    background-position: center;
+}
+
+h1{
+    font-family: Luckiest guy;
+    font-size: 2rem;
+    color: #fff;
+    font-weight: 400;
+    line-height: 2rem;
+    width: 278px;
+    padding: 70px 126px 24px 24px;
+}
+p{
+    font-family: open sans;
+    color: #fff;
+    line-height: 22px;
+    padding: 0 23px 24px 24px;
+    font-weight: 400;
+}
+#botoes{
+    display: flex;
+    flex-direction: column;
+    gap: 31px;
+}
+.botao-1{
+
+}
+.botao-2{
+    
+}
