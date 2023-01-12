@@ -125,8 +125,13 @@ footer{
     align-items: center;
     
 }
+@media screen and (min-width: 688px) and (max-width: 823px){
+    header{
+        background-position: initial;
+    }
+}
 
-@media screen and (min-width: 674px){
+@media screen and (min-width: 824px){
     header{
         background-position: initial;
         display: flex;
