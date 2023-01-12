@@ -7,6 +7,8 @@ header{
     background-position-x: -790px;
     background-repeat: no-repeat;
     background-size: auto 525px;
+    display: flex;
+    flex-direction: column;
     
 }
 
@@ -46,4 +48,29 @@ p{
     color: #fff;
     background-color: #23272A;
     font-family: open sans;
+}
+
+@media screen and (min-width: 674px){
+    header{
+        background-position: initial;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    h1{
+        max-width: 350px;
+        font-size: 3.1rem;
+        text-align: center;
+        line-height: 3.1rem;
+        padding-top: 94px;
+    }
+    p{
+        width: 700px;
+        text-align: center;
+        padding-bottom: 35px;
+    }
+    #botoes{
+        flex-direction: row;
+        padding-bottom: 95px;
+    }
 }
